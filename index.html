@@ -2,123 +2,108 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>A Pen by Elamin</title>
-
-
-
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="css/grid.css">
 
-
+  <title>Semantics</title>
 </head>
 
 <body>
+  <div class="container">
+    <header class="row flex-layout2 ">
+      <div class="logo-container  xs-col-12 sm-col-12 md-col-4  ">
+        <img class="logo" src="https://image.freepik.com/free-vector/bakery-badge-collection_23-2148048276.jpg">
+      </div>
+      <div class="contact rounde-corners xs-col-12 sm-col-12 md-col-4">
+        <span>CONTACT</span>
+      </div>
+    </header>
+    <div>
+      <nav class="header-nav">
+        <ul class="row flex-layout2">
+          <li class="nav-element rounde-corners xs-col-12 sm-col-12 md-col-2"><a>HOME</a> </li>
+          <li class="nav-element rounde-corners xs-col-12 sm-col-12 md-col-2"><a>CAKES</a></li>
+          <li class="nav-element rounde-corners xs-col-12 sm-col-12 md-col-2"><a>ORDERING</a></li>
+          <li class="nav-element rounde-corners xs-col-12 sm-col-12 md-col-2"><a>LESSONS</a></li>
+          <li class="nav-element rounde-corners xs-col-12 sm-col-12 md-col-2"><a>ABOUT</a></li>
+        </ul>
+      </nav>
+      <main class="main-container ">
+        <section class="info-carosusel-container row ">
+          <article class="info-container md-col-3 xs-col-12 sm-col-12 ">
+            <h1 class="hello ">HELLO<h1>
+                <p>INFORMATION</p>
 
-  <!DOCTYPE html>
-  <html lang="en">
+          </article>
+          <section class="carosusel-container  md-col-8 xs-col-12 sm-col-12">
+            <section class="image-carosusel">
+              <div class="prev-next">
+                <a class="prev">&#10094;</a>
+                <a id="sild-number">1/5</a>
+                <a class="next">&#10095;</a>
+              </div>
+              <img id="image-carosusel" src="https://image.freepik.com/free-photo/heart-cakes_1157-707.jpg" />
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Semantics</title>
-  </head>
+            </section>
+            <section id="small-pics-container" class="row small-pics-container">
 
-  <body>
-    <div class="container">
-      <header class="row flex-layout2 ">
-        <div class="logo-container  xs-col-12 sm-col-12 md-col-4  ">
-          <img class="logo" src="https://image.freepik.com/free-vector/bakery-badge-collection_23-2148048276.jpg">
-        </div>
-        <div class="contact rounde-corners xs-col-12 sm-col-12 md-col-4">
-          <span>CONTACT</span>
-        </div>
-      </header>
-      <div>
+              <img class="small-images md-col-3 xs-col-12 sm-col-12"
+                src="http://images.freehdw.com/800/3d-abstract_widewallpaper_heart-cake_26666.jpg">
+
+
+
+              <img class="small-images md-col-3 xs-col-12 sm-col-12"
+                src="https://i.pinimg.com/originals/85/0d/23/850d2323fd9877e07d930def291f3bb0.jpg">
+
+              <img class="small-images md-col-3 xs-col-12 sm-col-12"
+                src="https://144f2a3a2f948f23fc61-ca525f0a2beaec3e91ca498facd51f15.ssl.cf3.rackcdn.com/uploads/food_portal_data/recipes/recipe/hero_article_image/671/compressed_resizeimage593x426xmUicXQsc75.jpg">
+
+
+
+              <img class="small-images md-col-3 xs-col-12 sm-col-12"
+                src="http://2.bp.blogspot.com/-KsVuKfsVcEk/UHxmHUhh4RI/AAAAAAAACJQ/s7nlQqNcX5E/s1600/20121015-cake-sprinkles-sainsburys-3-close.jpg">
+
+            </section>
+          </section>
+        </section>
+        <section class="product-display row">
+          <article class="product-display-article  md-col-3 xs-col-12 sm-col-12">
+            <img src="http://1.bp.blogspot.com/-8nZfz6cICTA/UdUYWSq26wI/AAAAAAAAFrY/7NRBjRdO6Cw/s640/5.jpg" />
+            <p>Read more</p>
+          </article>
+          <article class="product-display-article  md-col-3 xs-col-12 sm-col-12">
+            <img src="https://cheetahsinmyshoes.files.wordpress.com/2011/12/p1120820.jpg" />
+            <p>Read more</p>
+          </article>
+          <article class="product-display-article  md-col-3 xs-col-12 sm-col-12">
+            <img
+              src="https://i.pinimg.com/736x/b1/49/29/b149292f9aedf68e85c5c100d800defa--strawberry-cream-cakes-strawberries-and-cream.jpg" />
+            <p>Read more</p>
+          </article>
+          <article class="product-display-article  md-col-3 xs-col-12 sm-col-12">
+            <img
+              src="https://www.freshdesignpedia.com/wp-content/uploads/decorate-cake-with-strawberries-88-examples-cakes-that-embody-seduction/cakes-decode-pie-with-strawberries-decorating-ideas.jpg" />
+            <p>Read more</p>
+          </article>
+        </section>
+      </main>
+      <footer>
         <nav class="header-nav">
           <ul class="row flex-layout2">
-            <li class="nav-element rounde-corners xs-col-12 sm-col-12 md-col-2"><a>HOME</a> </li>
-            <li class="nav-element rounde-corners xs-col-12 sm-col-12 md-col-2"><a>CAKES</a></li>
-            <li class="nav-element rounde-corners xs-col-12 sm-col-12 md-col-2"><a>ORDERING</a></li>
+            <li class="nav-element rounde-corners xs-col-12 sm-col-12 md-col-2"><a>SIT MAP</a> </li>
+            <li class="nav-element rounde-corners xs-col-12 sm-col-12 md-col-2"><a>CONTACT</a></li>
+            <li class="nav-element rounde-corners xs-col-12 sm-col-12 md-col-2"><a>DELIVERY</a></li>
             <li class="nav-element rounde-corners xs-col-12 sm-col-12 md-col-2"><a>LESSONS</a></li>
             <li class="nav-element rounde-corners xs-col-12 sm-col-12 md-col-2"><a>ABOUT</a></li>
           </ul>
         </nav>
-        <main class="main-container ">
-          <section class="info-carosusel-container row ">
-            <article class="info-container md-col-3 xs-col-12 sm-col-12 ">
-              <h1 class="hello ">HELLO<h1>
-                  <p>INFORMATION</p>
-
-            </article>
-            <section class="carosusel-container  md-col-8 xs-col-12 sm-col-12">
-              <section class="image-carosusel">
-                <div class="prev-next">
-                  <a class="prev">&#10094;</a>
-                  <a id="sild-number">1/5</a>
-                  <a class="next">&#10095;</a>
-                </div>
-                <img id="image-carosusel" src="https://image.freepik.com/free-photo/heart-cakes_1157-707.jpg" />
-
-              </section>
-              <section id="small-pics-container" class="row small-pics-container">
-
-                <img class="small-images md-col-3 xs-col-12 sm-col-12"
-                  src="http://images.freehdw.com/800/3d-abstract_widewallpaper_heart-cake_26666.jpg">
-
-
-
-                <img class="small-images md-col-3 xs-col-12 sm-col-12"
-                  src="https://i.pinimg.com/originals/85/0d/23/850d2323fd9877e07d930def291f3bb0.jpg">
-
-                <img class="small-images md-col-3 xs-col-12 sm-col-12"
-                  src="https://144f2a3a2f948f23fc61-ca525f0a2beaec3e91ca498facd51f15.ssl.cf3.rackcdn.com/uploads/food_portal_data/recipes/recipe/hero_article_image/671/compressed_resizeimage593x426xmUicXQsc75.jpg">
-
-
-
-                <img class="small-images md-col-3 xs-col-12 sm-col-12"
-                  src="http://2.bp.blogspot.com/-KsVuKfsVcEk/UHxmHUhh4RI/AAAAAAAACJQ/s7nlQqNcX5E/s1600/20121015-cake-sprinkles-sainsburys-3-close.jpg">
-
-              </section>
-            </section>
-          </section>
-          <section class="product-display row">
-            <article class="product-display-article  md-col-3 xs-col-12 sm-col-12">
-              <img src="http://1.bp.blogspot.com/-8nZfz6cICTA/UdUYWSq26wI/AAAAAAAAFrY/7NRBjRdO6Cw/s640/5.jpg" />
-              <p>Read more</p>
-            </article>
-            <article class="product-display-article  md-col-3 xs-col-12 sm-col-12">
-              <img src="https://cheetahsinmyshoes.files.wordpress.com/2011/12/p1120820.jpg" />
-              <p>Read more</p>
-            </article>
-            <article class="product-display-article  md-col-3 xs-col-12 sm-col-12">
-              <img
-                src="https://i.pinimg.com/736x/b1/49/29/b149292f9aedf68e85c5c100d800defa--strawberry-cream-cakes-strawberries-and-cream.jpg" />
-              <p>Read more</p>
-            </article>
-            <article class="product-display-article  md-col-3 xs-col-12 sm-col-12">
-              <img
-                src="https://www.freshdesignpedia.com/wp-content/uploads/decorate-cake-with-strawberries-88-examples-cakes-that-embody-seduction/cakes-decode-pie-with-strawberries-decorating-ideas.jpg" />
-              <p>Read more</p>
-            </article>
-          </section>
-        </main>
-        <footer>
-          <nav class="header-nav">
-            <ul class="row flex-layout2">
-              <li class="nav-element rounde-corners xs-col-12 sm-col-12 md-col-2"><a>SIT MAP</a> </li>
-              <li class="nav-element rounde-corners xs-col-12 sm-col-12 md-col-2"><a>CONTACT</a></li>
-              <li class="nav-element rounde-corners xs-col-12 sm-col-12 md-col-2"><a>DELIVERY</a></li>
-              <li class="nav-element rounde-corners xs-col-12 sm-col-12 md-col-2"><a>LESSONS</a></li>
-              <li class="nav-element rounde-corners xs-col-12 sm-col-12 md-col-2"><a>ABOUT</a></li>
-            </ul>
-          </nav>
-        </footer>
-      </div>
-      <script src="js/index.js"></script>
+      </footer>
     </div>
-  </body>
+    <script src="js/index.js"></script>
+  </div>
+</body>
 
-  </html>
+</html>
